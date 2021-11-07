@@ -4,6 +4,7 @@ import datetime, time
 import os, sys
 import numpy as np
 from threading import Thread
+import streamlit as st
 
 
 global capture,rec_frame, grey, switch, neg, face, rec, out 
